@@ -1,0 +1,5 @@
+Pillow
+googlesearch-python
+html2image
+numpy
+opencv-python
