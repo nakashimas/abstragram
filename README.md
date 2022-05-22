@@ -7,8 +7,6 @@
 
 <h4 align="center">抽象化されたコンテンツ、写真、ウェブサイト、そしてインスタグラム</h4>
 
-<hr>
-
 <p align="center">
   <a>
     <img alt="AppVeyor badge" src="https://img.shields.io/badge/build-passing-brightgreen">
@@ -24,8 +22,6 @@
     <img src="https://img.shields.io/badge/platform-win--32%20%7C%20win--64-lightgrey">
   </a>
 </p>
-
-<hr>
 
 <h2> Contents </h2>
 
