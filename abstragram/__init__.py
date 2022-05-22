@@ -1,8 +1,10 @@
 # __init__.py
 
 try:
-    from .bot_taskmanager import *
-    from .bot_timetable import *
-except Exception:
-    from bot_taskmanager import *
-    from bot_timetable import *
+    from . import colorpicker
+    from . import composition
+    from .core import *
+except Exception as _:
+    import colorpicker
+    import composition
+    from core import *

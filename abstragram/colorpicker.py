@@ -10,7 +10,10 @@
 from PIL import Image
 from html2image import Html2Image
 import cv2
-import google_images_download
+try:
+    from . import google_images_download
+except Exception as _:
+    import google_images_download
 import googlesearch
 import numpy
 

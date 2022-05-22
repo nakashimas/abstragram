@@ -7,8 +7,12 @@
 # ##############################################################################
 # =============================================================================>
 # imports
-from colorpicker import *
-from composition import CompositionRandomImage
+try:
+    from .colorpicker import *
+    from .composition import CompositionRandomImage
+except Exception as _:
+    from colorpicker import *
+    from composition import CompositionRandomImage
 
 from pytrends.request import TrendReq
 from PIL import Image, ImageDraw
